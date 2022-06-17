@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aisle Assignment</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_your_nphone_number">Enter Your\nPhone Number</string>
+    <string name="_91">+91</string>
+    <string name="text_timer">00:%s</string>
+    <string name="enter_the_notp">Enter The\nOTP</string>
+    <string name="notes">Notes</string>
+</resources>
