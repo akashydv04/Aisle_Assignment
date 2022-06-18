@@ -6,4 +6,9 @@
     <string name="text_timer">00:%s</string>
     <string name="enter_the_notp">Enter The\nOTP</string>
     <string name="notes">Notes</string>
+    <string name="personal_message_to_you">Personal message to you</string>
+    <string name="tap_to_review_50_notes">Tap to review 50+ notes</string>
+    <string name="meena_23">Meena, 23</string>
+    <string name="premium_members_can_view_all_their_likes_at_once">Premium members can view all their likes at once</string>
+    <string name="teena">Teena</string>
 </resources>

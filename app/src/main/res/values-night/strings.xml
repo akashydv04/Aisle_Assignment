@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_your_nphone_number">Enter Your\nPhone Number</string>
+    <string name="tap_to_review_50_notes">Tap to review 50+ notes</string>
+    <string name="meena_23">Meena, 23</string>
 </resources>

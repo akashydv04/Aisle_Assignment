@@ -19,6 +19,6 @@ interface AisleService {
     @POST("users/verify_otp")
     suspend fun verifyOtp(@Body request: VerifyOtpRequest): Response<VerifyOtpResponse>
 
-    @GET("/users/test_profile_list")
+    @GET("users/test_profile_list")
     suspend fun getNotes(): Response<NotesResponse>
 }

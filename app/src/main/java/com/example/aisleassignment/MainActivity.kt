@@ -2,6 +2,7 @@ package com.example.aisleassignment
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
@@ -22,8 +23,21 @@ class MainActivity : AppCompatActivity() {
         navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment_container) as NavHostFragment
 
-        val navController = navHostFragment.navController
+        navController = navHostFragment.navController
+        hideBottomNav()
+    }
 
-        NavigationUI.setupActionBarWithNavController(this, navController)
+    private fun hideBottomNav() {
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            when (destination.id) {
+
+                R.id.homeFragment -> {
+                    binding.bottomNav.visibility = View.VISIBLE
+                }
+                else -> {
+                    binding.bottomNav.visibility = View.GONE
+                }
+            }
+        }
     }
 }
